@@ -17,7 +17,7 @@ It's really easy to get Celeste working on M1 Macs, but it requires updating a c
 3. Now go find Celeste on your disk. In Steam, you can locate it by right-clicking on it in the list and choosing *Properties* -> *Local Files* -> *Browse...*.
 4. Right-click on Celeste and choose *Show Package Contents*, then go to `Contents/MacOS`. You should see a bunch of files in the `MacOS` folder, including some called `Celeste` and `Celeste.exe` and a folder called `osx`.
 5. Copy `FNA.dll` and `FNA.dll.info` from the ZIP into the `MacOS` folder. When it asks if you want to replace the existing files, say yes.
-6. Copy everything from the `osx` folder in the ZIP into the `MacOS/osx` folder. Again, replace.
+6. Copy everything from the `osx` folder in the ZIP into the `MacOS/osx` folder. Again, replace. Do not copy paste the entire folder, as the `osx` directory in the patch does not contain everything the game needs to run. Replace the components piecewise.
 7. You're done! Run the game.
 
 ##### Building (optional)
